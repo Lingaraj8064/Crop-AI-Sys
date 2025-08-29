@@ -1,0 +1,676 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2024-01-15",
+    "total_plants": 5,
+    "total_diseases": 10,
+    "description": "Comprehensive plant and disease database for crop disease detection system"
+  },
+  "plants": {
+    "apple": {
+      "common_name": "Apple",
+      "scientific_name": "Malus domestica",
+      "family": "Rosaceae",
+      "category": "Fruit",
+      "soil_requirements": {
+        "ph_min": 6.0,
+        "ph_max": 7.0,
+        "drainage": "Well-draining, loamy soil",
+        "nutrients": ["phosphorus", "potassium", "organic matter", "calcium"],
+        "organic_matter": "Rich in organic matter, 3-5% content ideal",
+        "depth_requirement": "Minimum 3 feet for proper root development",
+        "soil_types": ["loamy", "sandy loam", "clay loam"]
+      },
+      "weather_requirements": {
+        "temp_min": 32,
+        "temp_max": 85,
+        "temp_optimal_min": 60,
+        "temp_optimal_max": 75,
+        "rainfall_min": 25,
+        "rainfall_max": 40,
+        "humidity_range": "Moderate humidity with good air circulation essential",
+        "sunlight_hours": "6-8 hours daily for optimal fruit development",
+        "frost_tolerance": "Cold hardy, requires winter chill hours",
+        "chill_hours": "400-1000 hours below 45°F required for proper flowering"
+      },
+      "care_instructions": {
+        "watering": [
+          "Water deeply but infrequently to encourage deep root growth",
+          "Provide 1-2 inches of water per week during growing season",
+          "Reduce watering before harvest to concentrate flavors",
+          "Avoid overhead watering to prevent disease"
+        ],
+        "fertilization": [
+          "Apply balanced fertilizer (10-10-10) in early spring",
+          "Supplement with compost annually in fall",
+          "Avoid excessive nitrogen which promotes disease",
+          "Side-dress with compost in mid-summer"
+        ],
+        "pruning": [
+          "Prune annually during dormant season (late winter)",
+          "Remove dead, diseased, and crossing branches",
+          "Maintain open center for air circulation",
+          "Thin fruit in early summer for better quality"
+        ],
+        "pest_management": [
+          "Monitor regularly for aphids and scale insects",
+          "Use integrated pest management approach",
+          "Encourage beneficial insects with diverse plantings",
+          "Apply dormant oil spray in late winter"
+        ],
+        "harvesting": "Harvest when apples are firm, fully colored, and easily separate from branch with a twist. Test ripeness by checking if seeds are dark brown.",
+        "post_harvest": [
+          "Handle carefully to prevent bruising",
+          "Store in cool, humid conditions (32-40°F, 90-95% humidity)",
+          "Separate varieties as some ripen faster",
+          "Check stored apples regularly and remove damaged ones"
+        ],
+        "seasonal_care": {
+          "spring": [
+            "Apply organic mulch around base",
+            "Begin regular watering schedule",
+            "Apply balanced fertilizer",
+            "Monitor for early pest activity"
+          ],
+          "summer": [
+            "Maintain consistent moisture",
+            "Thin fruit for better quality",
+            "Monitor for summer diseases",
+            "Harvest early varieties"
+          ],
+          "fall": [
+            "Harvest main crop varieties",
+            "Rake and dispose of fallen leaves",
+            "Apply compost around base",
+            "Begin dormant season preparations"
+          ],
+          "winter": [
+            "Prune during dormant season",
+            "Apply dormant oil spray",
+            "Protect young trees from rodents",
+            "Plan next year's management"
+          ]
+        }
+      },
+      "diseases": [
+        {
+          "name": "Apple Scab",
+          "scientific_name": "Venturia inaequalis",
+          "severity": "High",
+          "type": "fungal",
+          "symptoms": "Dark, scaly lesions on leaves and fruit, premature leaf drop, reduced fruit quality, olive-green to black spots that become raised and scaly",
+          "causes": "Fungal infection caused by Venturia inaequalis, thrives in cool, moist conditions with temperatures 55-75°F and high humidity",
+          "prevention": [
+            "Plant scab-resistant apple varieties",
+            "Ensure proper air circulation by pruning",
+            "Remove fallen leaves and debris in fall",
+            "Apply preventive fungicides in early spring",
+            "Avoid overhead watering"
+          ],
+          "treatment": [
+            "Apply copper-based fungicides at green tip stage",
+            "Use systemic fungicides like myclobutanil during infection periods",
+            "Remove infected plant parts immediately and dispose properly",
+            "Improve orchard sanitation practices",
+            "Apply lime sulfur spray during dormant season"
+          ],
+          "immediate_action": "Remove infected leaves and apply fungicide treatment immediately to prevent spread to fruit and other trees",
+          "organic_treatment": [
+            "Neem oil spray every 7-14 days",
+            "Baking soda solution (1 tsp per quart water)",
+            "Compost tea applications to boost plant immunity",
+            "Milk spray (1 part milk to 9 parts water)"
+          ],
+          "affected_parts": ["leaves", "fruit", "twigs"],
+          "favorable_conditions": "Cool, moist conditions with temperatures 55-75°F, high humidity, and wet spring weather",
+          "spread_method": "Wind and rain dispersal of spores, overwintering in fallen leaves",
+          "contagious_level": "High"
+        },
+        {
+          "name": "Fire Blight",
+          "scientific_name": "Erwinia amylovora",
+          "severity": "Critical",
+          "type": "bacterial",
+          "symptoms": "Blackened, wilted shoots that look burned, cankers on branches, bacterial ooze, shepherd's crook appearance of shoot tips, flowers and fruit clusters turn black",
+          "causes": "Bacterial infection by Erwinia amylovora, spread by insects, rain, wind, and contaminated pruning tools during warm, humid weather",
+          "prevention": [
+            "Avoid excessive nitrogen fertilization which promotes susceptible growth",
+            "Prune during dormant season to avoid spreading bacteria",
+            "Use copper sprays during bloom period",
+            "Plant fire blight-resistant varieties",
+            "Disinfect pruning tools between cuts"
+          ],
+          "treatment": [
+            "Prune infected branches 12 inches below visible symptoms",
+            "Apply streptomycin or oxytetracycline antibiotics during bloom",
+            "Disinfect pruning tools with 70% alcohol between cuts",
+            "Remove severely infected trees to protect others",
+            "Burn or bury infected wood, do not compost"
+          ],
+          "immediate_action": "Prune infected areas immediately using disinfected tools and apply antibiotic treatment to save the tree and prevent spread",
+          "organic_treatment": [
+            "Copper sprays during dormant season",
+            "Remove infected wood immediately",
+            "Improve air circulation through pruning",
+            "Apply beneficial bacteria like Bacillus subtilis"
+          ],
+          "affected_parts": ["shoots", "branches", "flowers", "fruit"],
+          "favorable_conditions": "Warm, humid weather with temperatures above 60°F, especially during bloom period",
+          "spread_method": "Insects (especially bees), rain splash, wind, and contaminated tools",
+          "contagious_level": "High"
+        }
+      ],
+      "suitable_regions": [
+        "USDA Zones 3-8",
+        "Temperate climates with distinct seasons",
+        "Regions with adequate winter chill hours",
+        "Areas with moderate rainfall and good drainage",
+        "Northern United States and southern Canada"
+      ],
+      "growing_season": "Spring through fall, dormant in winter",
+      "maturity_time": "2-5 years to fruit production, 7-10 years for full production",
+      "yield_info": "15-50 bushels per mature tree depending on variety and care",
+      "nutritional_value": {
+        "calories_per_100g": 52,
+        "carbohydrates": "13.8g",
+        "fiber": "2.4g",
+        "vitamin_c": "4.6mg",
+        "potassium": "107mg",
+        "antioxidants": "High in quercetin and catechin"
+      },
+      "companion_plants": ["chives", "nasturtiums", "marigolds", "comfrey"],
+      "incompatible_plants": ["walnut trees", "potato family plants"]
+    },
+    "tomato": {
+      "common_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "family": "Solanaceae",
+      "category": "Vegetable",
+      "soil_requirements": {
+        "ph_min": 6.0,
+        "ph_max": 6.8,
+        "drainage": "Well-draining, fertile soil rich in organic matter",
+        "nutrients": ["nitrogen", "phosphorus", "potassium", "calcium", "magnesium"],
+        "organic_matter": "High organic content, 4-6% ideal",
+        "depth_requirement": "18-24 inches for adequate root development",
+        "soil_types": ["sandy loam", "loamy", "well-amended clay"]
+      },
+      "weather_requirements": {
+        "temp_min": 50,
+        "temp_max": 95,
+        "temp_optimal_min": 65,
+        "temp_optimal_max": 75,
+        "rainfall_min": 24,
+        "rainfall_max": 36,
+        "humidity_range": "Moderate humidity (40-70%) with good air circulation",
+        "sunlight_hours": "6-8 hours direct sunlight daily",
+        "frost_tolerance": "Frost sensitive, plant after last frost date",
+        "chill_hours": "None required"
+      },
+      "care_instructions": {
+        "watering": [
+          "Provide consistent moisture, 1-2 inches per week",
+          "Water at soil level to avoid wetting foliage",
+          "Maintain even soil moisture to prevent blossom end rot",
+          "Use drip irrigation or soaker hoses when possible",
+          "Avoid water stress during fruit development"
+        ],
+        "fertilization": [
+          "High nitrogen needs early in season for vegetative growth",
+          "Switch to phosphorus-potassium focus during fruiting",
+          "Side-dress with compost or balanced fertilizer monthly",
+          "Avoid over-fertilizing with nitrogen during fruiting",
+          "Add calcium to prevent blossom end rot"
+        ],
+        "pruning": [
+          "Remove suckers that grow between main stem and branches",
+          "Prune lower leaves that touch the ground",
+          "Stake or cage plants for support",
+          "Remove diseased or damaged foliage immediately",
+          "Top plants late in season to ripen existing fruit"
+        ],
+        "pest_management": [
+          "Monitor for hornworms, aphids, and whiteflies",
+          "Use row covers early in season",
+          "Encourage beneficial insects with companion plants",
+          "Rotate crops annually to break pest cycles",
+          "Hand-pick large pests like hornworms"
+        ],
+        "harvesting": "Harvest when fruits show first blush of color for best flavor, or when fully red. Green tomatoes can be ripened indoors.",
+        "post_harvest": [
+          "Store ripe tomatoes at room temperature",
+          "Ripen green tomatoes in paper bags with banana",
+          "Never refrigerate fresh tomatoes",
+          "Use within a week for best quality"
+        ]
+      },
+      "diseases": [
+        {
+          "name": "Early Blight",
+          "scientific_name": "Alternaria solani",
+          "severity": "Medium",
+          "type": "fungal",
+          "symptoms": "Dark brown spots with concentric rings (target spots) on older leaves, yellowing and leaf drop starting from bottom, fruit lesions with dark, sunken areas",
+          "causes": "Fungal infection by Alternaria solani, favored by warm, humid conditions (75-85°F), stressed or older plants more susceptible",
+          "prevention": [
+            "Rotate crops annually to break disease cycle",
+            "Space plants adequately for air circulation",
+            "Water at soil level, avoid wetting foliage",
+            "Apply mulch to prevent soil splash on leaves",
+            "Remove plant debris at end of season"
+          ],
+          "treatment": [
+            "Apply copper-based or chlorothalonil fungicides preventively",
+            "Remove infected lower leaves immediately",
+            "Improve air circulation around plants",
+            "Use drip irrigation instead of overhead watering",
+            "Apply fungicide every 7-14 days during humid periods"
+          ],
+          "immediate_action": "Remove affected leaves immediately and apply fungicide to prevent further spread up the plant",
+          "organic_treatment": [
+            "Neem oil spray weekly",
+            "Baking soda spray (1 tsp per quart water)",
+            "Copper fungicide (organic approved)",
+            "Compost tea to boost plant immunity"
+          ],
+          "affected_parts": ["leaves", "stems", "fruit"],
+          "favorable_conditions": "Warm temperatures (75-85°F), high humidity, leaf wetness, and plant stress",
+          "spread_method": "Wind-blown spores, water splash, and infected plant debris",
+          "contagious_level": "Medium"
+        },
+        {
+          "name": "Late Blight",
+          "scientific_name": "Phytophthora infestans",
+          "severity": "Critical",
+          "type": "oomycete",
+          "symptoms": "Water-soaked lesions on leaves, white fuzzy growth on undersides of leaves, rapid fruit rot, dark lesions on stems, entire plant collapse possible",
+          "causes": "Oomycete pathogen Phytophthora infestans, spreads rapidly in cool, wet conditions (60-70°F), same organism that caused Irish Potato Famine",
+          "prevention": [
+            "Plant certified disease-free seedlings",
+            "Ensure excellent drainage and air circulation",
+            "Apply preventive fungicides in high-risk periods",
+            "Monitor weather conditions closely for favorable disease conditions",
+            "Avoid overhead watering completely"
+          ],
+          "treatment": [
+            "Apply systemic fungicides like metalaxyl or dimethomorph",
+            "Remove and destroy infected plants immediately",
+            "Do not compost infected material",
+            "Harvest green fruit before disease spreads",
+            "Apply copper fungicides preventively"
+          ],
+          "immediate_action": "Emergency fungicide application and immediate removal of infected plants to prevent total crop loss and spread to neighboring plants",
+          "organic_treatment": [
+            "Copper sulfate spray (early stages only)",
+            "Remove infected plants immediately",
+            "Improve drainage and air circulation",
+            "Avoid overhead watering completely",
+            "Use resistant varieties in future plantings"
+          ],
+          "affected_parts": ["leaves", "stems", "fruit", "entire plant"],
+          "favorable_conditions": "Cool, wet weather with temperatures 60-70°F, high humidity (>90%), and leaf wetness for 10+ hours",
+          "spread_method": "Wind-blown sporangia, water splash, and infected plant material",
+          "contagious_level": "High"
+        }
+      ],
+      "suitable_regions": [
+        "USDA Zones 2-11 as annual crop",
+        "Warm season crop in temperate climates",
+        "Greenhouse growing in cold regions",
+        "Mediterranean and subtropical climates ideal",
+        "Worldwide cultivation with season adjustment"
+      ],
+      "growing_season": "Late spring through fall, warm season crop",
+      "maturity_time": "60-85 days from transplant depending on variety",
+      "yield_info": "10-15 pounds per plant for indeterminate varieties, 4-6 pounds for determinate",
+      "nutritional_value": {
+        "calories_per_100g": 18,
+        "carbohydrates": "3.9g",
+        "fiber": "1.2g",
+        "vitamin_c": "13.7mg",
+        "potassium": "237mg",
+        "lycopene": "High antioxidant content"
+      },
+      "companion_plants": ["basil", "oregano", "parsley", "marigolds", "carrots"],
+      "incompatible_plants": ["fennel", "corn", "brassicas", "walnut trees"]
+    },
+    "corn": {
+      "common_name": "Corn",
+      "scientific_name": "Zea mays",
+      "family": "Poaceae",
+      "category": "Grain",
+      "soil_requirements": {
+        "ph_min": 6.0,
+        "ph_max": 6.8,
+        "drainage": "Well-draining, deep, fertile soil",
+        "nutrients": ["nitrogen", "phosphorus", "potassium", "sulfur", "zinc"],
+        "organic_matter": "Rich in organic matter, 3-4% content",
+        "depth_requirement": "Deep soil preferred for extensive root system, minimum 2 feet",
+        "soil_types": ["loamy", "silty loam", "well-drained clay loam"]
+      },
+      "weather_requirements": {
+        "temp_min": 50,
+        "temp_max": 95,
+        "temp_optimal_min": 70,
+        "temp_optimal_max": 85,
+        "rainfall_min": 20,
+        "rainfall_max": 35,
+        "humidity_range": "Moderate humidity, avoid excessive moisture during tasseling",
+        "sunlight_hours": "Full sun essential for maximum yield, 6-8 hours minimum",
+        "frost_tolerance": "Frost sensitive, requires frost-free growing season",
+        "chill_hours": "None required"
+      },
+      "care_instructions": {
+        "watering": [
+          "Deep, infrequent watering preferred to encourage deep roots",
+          "Critical water needs during tasseling and ear formation",
+          "Provide 1-1.5 inches per week during growing season",
+          "Avoid water stress during pollination period",
+          "Reduce watering as kernels reach maturity"
+        ],
+        "fertilization": [
+          "Heavy nitrogen feeder, requires adequate N throughout season",
+          "Side-dress with nitrogen at knee-high stage (V6)",
+          "Apply balanced fertilizer at planting",
+          "Additional nitrogen application at tasseling",
+          "Ensure adequate phosphorus and potassium availability"
+        ],
+        "pruning": [
+          "Remove suckers (tillers) if desired for larger ears",
+          "Hill soil around base for additional support",
+          "Remove lower leaves only if diseased",
+          "Allow multiple ears per plant for sweet corn varieties"
+        ],
+        "pest_management": [
+          "Monitor for corn borer, armyworm, and rootworm",
+          "Use Bt corn varieties for lepidopteran pests",
+          "Crop rotation to manage rootworm",
+          "Beneficial insects help control aphids and other pests",
+          "Pheromone traps for monitoring adult pest populations"
+        ],
+        "harvesting": "Sweet corn ready when silks are brown and kernels are milky when punctured. Field corn harvested when kernels are hard and moisture content is 15-20%.",
+        "post_harvest": [
+          "Sweet corn best used immediately after harvest",
+          "Cool quickly to preserve sugar content",
+          "Field corn should be dried to 14% moisture for storage",
+          "Store in cool, dry conditions to prevent mold"
+        ]
+      },
+      "diseases": [
+        {
+          "name": "Corn Smut",
+          "scientific_name": "Ustilago maydis",
+          "severity": "Medium",
+          "type": "fungal",
+          "symptoms": "Large, grayish-white galls on ears, stalks, leaves, and tassels that turn black when mature and release dark spores",
+          "causes": "Fungal infection by Ustilago maydis, enters through wounds caused by insects, hail, or mechanical damage, favored by warm, dry conditions followed by moisture",
+          "prevention": [
+            "Avoid mechanical damage to plants during cultivation",
+            "Control corn borers and other insects that create wounds",
+            "Practice crop rotation with non-host crops",
+            "Remove infected galls before spores mature and are released",
+            "Plant resistant varieties when available"
+          ],
+          "treatment": [
+            "Remove and destroy infected galls immediately",
+            "No effective chemical treatment available",
+            "Focus on prevention and sanitation practices",
+            "Harvest unaffected portions of plant normally",
+            "Burn infected material, do not compost"
+          ],
+          "immediate_action": "Remove infected galls immediately before they release black spores to prevent spread to other plants",
+          "organic_treatment": [
+            "Remove galls before spore release",
+            "Improve plant vigor through proper nutrition",
+            "Avoid plant injuries during cultivation",
+            "Encourage beneficial soil microorganisms"
+          ],
+          "affected_parts": ["ears", "stalks", "leaves", "tassels"],
+          "favorable_conditions": "Warm weather followed by moisture, plant stress, and mechanical wounds",
+          "spread_method": "Wind dispersal of spores, overwintering spores in soil",
+          "contagious_level": "Medium"
+        },
+        {
+          "name": "Northern Leaf Blight",
+          "scientific_name": "Exserohilum turcicum",
+          "severity": "High",
+          "type": "fungal",
+          "symptoms": "Long, elliptical, gray-green lesions on leaves that can extend across entire leaf width, lesions may have dark borders",
+          "causes": "Fungal pathogen Exserohilum turcicum, favored by moderate temperatures (65-80°F) and high humidity, spreads rapidly under favorable conditions",
+          "prevention": [
+            "Plant resistant corn hybrids with Ht genes",
+            "Rotate with non-grass crops for 2-3 years",
+            "Bury crop residue completely to reduce inoculum",
+            "Ensure adequate plant spacing for air circulation",
+            "Avoid overhead irrigation during vulnerable periods"
+          ],
+          "treatment": [
+            "Apply triazole fungicides (propiconazole, tebuconazole) or strobilurin fungicides",
+            "Time applications at early symptom development for best control",
+            "Multiple applications may be needed in severe conditions",
+            "Focus on protecting upper leaves and ear leaf",
+            "Monitor weather conditions for reinfection periods"
+          ],
+          "immediate_action": "Apply fungicide treatment at first sign of lesions to protect yield, especially if conditions favor disease development",
+          "organic_treatment": [
+            "Use resistant varieties as primary control",
+            "Improve air circulation through proper spacing",
+            "Remove infected residue after harvest",
+            "Copper-based fungicides (limited effectiveness)"
+          ],
+          "affected_parts": ["leaves", "leaf sheaths", "husks"],
+          "favorable_conditions": "Moderate temperatures 65-80°F, high humidity, leaf wetness, and susceptible varieties",
+          "spread_method": "Wind-blown conidia, rain splash, and infected crop residue",
+          "contagious_level": "High"
+        }
+      ],
+      "suitable_regions": [
+        "USDA Zones 3-11",
+        "Corn Belt states (Iowa, Illinois, Nebraska, Indiana) ideal",
+        "Areas with warm summers and adequate rainfall",
+        "Plains and prairie regions excellent for field corn",
+        "Temperate to subtropical climates worldwide"
+      ],
+      "growing_season": "Late spring through fall, warm season crop",
+      "maturity_time": "60-100 days depending on variety (sweet corn 60-90 days, field corn 90-120 days)",
+      "yield_info": "150-200 bushels per acre for field corn, 8-12 ears per plant for sweet corn",
+      "nutritional_value": {
+        "calories_per_100g": 86,
+        "carbohydrates": "19g",
+        "fiber": "2.7g",
+        "protein": "3.2g",
+        "vitamin_c": "6.8mg",
+        "folate": "42mcg"
+      },
+      "companion_plants": ["beans", "squash", "sunflowers", "marigolds"],
+      "incompatible_plants": ["tomatoes", "brassicas"]
+    },
+    "potato": {
+      "common_name": "Potato",
+      "scientific_name": "Solanum tuberosum",
+      "family": "Solanaceae",
+      "category": "Vegetable",
+      "soil_requirements": {
+        "ph_min": 5.5,
+        "ph_max": 6.5,
+        "drainage": "Well-draining, loose, friable soil",
+        "nutrients": ["potassium", "phosphorus", "nitrogen", "sulfur"],
+        "organic_matter": "High organic content, well-rotted compost",
+        "depth_requirement": "12-18 inches loose soil for tuber development",
+        "soil_types": ["sandy loam", "loamy", "well-drained organic soils"]
+      },
+      "weather_requirements": {
+        "temp_min": 45,
+        "temp_max": 80,
+        "temp_optimal_min": 60,
+        "temp_optimal_max": 70,
+        "rainfall_min": 20,
+        "rainfall_max": 25,
+        "humidity_range": "Moderate humidity, avoid excessive moisture",
+        "sunlight_hours": "6-8 hours daily",
+        "frost_tolerance": "Frost sensitive, plant after soil warms to 45°F",
+        "chill_hours": "None required"
+      },
+      "care_instructions": {
+        "watering": [
+          "Consistent moisture throughout growing season",
+          "Deep watering 1-2 times per week",
+          "Avoid overwatering which can cause tuber rot",
+          "Reduce watering 2 weeks before harvest"
+        ],
+        "fertilization": [
+          "Balanced fertilization with emphasis on potassium",
+          "Side-dress with compost when plants are 6 inches tall",
+          "Avoid fresh manure which can cause scab",
+          "Apply low-nitrogen fertilizer to prevent excessive foliage"
+        ],
+        "pruning": [
+          "Hill soil around plants as they grow",
+          "Remove flower buds to direct energy to tubers",
+          "Hill every 2-3 weeks until plants flower",
+          "Keep tubers covered to prevent greening"
+        ],
+        "pest_management": [
+          "Monitor for Colorado potato beetle",
+          "Rotate crops to break pest cycles",
+          "Use row covers early in season",
+          "Hand-pick potato beetles and egg masses"
+        ],
+        "harvesting": "Harvest new potatoes 2-3 weeks after flowering. Mature potatoes ready when foliage dies back naturally."
+      },
+      "diseases": [
+        {
+          "name": "Late Blight",
+          "scientific_name": "Phytophthora infestans",
+          "severity": "Critical",
+          "type": "oomycete",
+          "symptoms": "Water-soaked lesions on leaves, white fuzzy growth on leaf undersides, rapid blackening of foliage, tuber rot",
+          "causes": "Same pathogen as tomato late blight, favored by cool, wet conditions",
+          "prevention": [
+            "Plant certified disease-free seed potatoes",
+            "Ensure good air circulation",
+            "Avoid overhead watering",
+            "Apply preventive fungicides in wet weather"
+          ],
+          "treatment": [
+            "Apply systemic fungicides immediately",
+            "Remove infected plants",
+            "Improve drainage",
+            "Harvest tubers before disease reaches them"
+          ],
+          "immediate_action": "Emergency fungicide application and removal of infected plants",
+          "organic_treatment": [
+            "Copper-based fungicides",
+            "Remove infected material",
+            "Improve air circulation"
+          ],
+          "affected_parts": ["leaves", "stems", "tubers"],
+          "favorable_conditions": "Cool, wet weather with high humidity",
+          "spread_method": "Wind-blown spores and water splash",
+          "contagious_level": "High"
+        }
+      ],
+      "suitable_regions": [
+        "USDA Zones 3-10",
+        "Cool season crop, grows well in northern climates",
+        "Mountain regions with cool summers",
+        "Areas with consistent moisture"
+      ],
+      "growing_season": "Cool season crop, spring and fall plantings",
+      "maturity_time": "70-120 days depending on variety",
+      "yield_info": "10-20 pounds per plant depending on variety and conditions"
+    },
+    "wheat": {
+      "common_name": "Wheat",
+      "scientific_name": "Triticum aestivum",
+      "family": "Poaceae",
+      "category": "Grain",
+      "soil_requirements": {
+        "ph_min": 6.0,
+        "ph_max": 7.5,
+        "drainage": "Well-draining soil, tolerates various soil types",
+        "nutrients": ["nitrogen", "phosphorus", "potassium"],
+        "organic_matter": "Moderate organic matter content",
+        "depth_requirement": "Deep, well-structured soil preferred",
+        "soil_types": ["clay loam", "silty loam", "sandy loam"]
+      },
+      "weather_requirements": {
+        "temp_min": 32,
+        "temp_max": 90,
+        "temp_optimal_min": 70,
+        "temp_optimal_max": 75,
+        "rainfall_min": 12,
+        "rainfall_max": 35,
+        "humidity_range": "Moderate humidity, dry conditions at harvest",
+        "sunlight_hours": "Full sun required",
+        "frost_tolerance": "Winter wheat is cold hardy, spring wheat is frost sensitive",
+        "chill_hours": "Winter varieties require vernalization"
+      },
+      "care_instructions": {
+        "watering": [
+          "Drought tolerant once established",
+          "Critical water needs during grain filling",
+          "Avoid overwatering which can cause lodging",
+          "Dry conditions preferred at harvest"
+        ],
+        "fertilization": [
+          "Heavy nitrogen feeder",
+          "Apply phosphorus and potassium at planting",
+          "Top-dress with nitrogen in spring for winter wheat",
+          "Avoid late nitrogen applications"
+        ],
+        "pruning": [
+          "No pruning required",
+          "May need to manage weeds between rows",
+          "Monitor for lodging in high-fertility situations"
+        ],
+        "pest_management": [
+          "Monitor for aphids, Hessian fly, and armyworms",
+          "Crop rotation helps manage soil-borne pests",
+          "Use certified seed to avoid seed-borne diseases"
+        ],
+        "harvesting": "Harvest when grain moisture is 12-14% for proper storage. Grain should be hard and golden."
+      },
+      "diseases": [
+        {
+          "name": "Wheat Rust",
+          "scientific_name": "Puccinia species",
+          "severity": "High",
+          "type": "fungal",
+          "symptoms": "Orange to reddish-brown pustules on leaves and stems, can cause significant yield loss",
+          "causes": "Several Puccinia species, favored by warm, humid conditions",
+          "prevention": [
+            "Plant rust-resistant varieties",
+            "Monitor weather conditions",
+            "Remove volunteer wheat plants",
+            "Apply preventive fungicides if necessary"
+          ],
+          "treatment": [
+            "Fungicide applications during infection periods",
+            "Use systemic fungicides for best control",
+            "Multiple applications may be needed"
+          ],
+          "immediate_action": "Apply fungicides at first sign of infection",
+          "organic_treatment": [
+            "Use resistant varieties",
+            "Improve air circulation",
+            "Remove infected plant debris"
+          ],
+          "affected_parts": ["leaves", "stems", "grain"],
+          "favorable_conditions": "Warm days, cool nights, high humidity",
+          "spread_method": "Wind-blown spores",
+          "contagious_level": "High"
+        }
+      ],
+      "suitable_regions": [
+        "USDA Zones 3-9",
+        "Great Plains states ideal",
+        "Areas with moderate rainfall",
+        "Temperate climates worldwide"
+      ],
+      "growing_season": "Fall planting for winter wheat, spring planting for spring wheat",
+      "maturity_time": "Winter wheat: 7-8 months, Spring wheat: 4-5 months",
+      "yield_info": "30-60 bushels per acre depending on variety and conditions"
+    }
+  }
+}

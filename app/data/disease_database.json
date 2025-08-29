@@ -1,0 +1,534 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2024-01-15",
+    "total_responses": 50,
+    "categories": ["greetings", "plant_care", "disease_management", "soil_health", "pest_control", "organic_farming", "seasonal_care", "harvesting", "general_advice"],
+    "description": "Comprehensive chatbot knowledge base for agricultural assistance"
+  },
+  "response_categories": {
+    "greetings": {
+      "keywords": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening"],
+      "responses": [
+        "Hello! I'm your agricultural AI assistant. How can I help you with your crops today?",
+        "Hi there! I'm here to help with all your farming and gardening questions. What would you like to know?",
+        "Welcome! I can assist you with plant diseases, growing tips, soil management, and more. What's on your mind?",
+        "Greetings! I'm ready to help you with agricultural advice and crop management. How can I assist you?",
+        "Good day! I'm your farming companion, here to help with everything from planting to harvest. What can I help you with?"
+      ],
+      "follow_up_suggestions": [
+        "Ask about plant diseases",
+        "Get growing tips for specific crops",
+        "Learn about soil management",
+        "Explore organic farming methods"
+      ]
+    },
+    "plant_identification": {
+      "keywords": ["what plant", "identify", "plant name", "what is this", "plant type"],
+      "responses": [
+        "I can help you identify plants! You can upload an image using our disease detection feature, or describe the plant's characteristics like leaf shape, flower color, and growth habit.",
+        "Plant identification is one of my specialties! For the most accurate identification, try uploading a clear photo of the plant, including leaves and flowers if possible.",
+        "To identify your plant, I'll need some details. You can either upload an image or describe features like: leaf shape and arrangement, flower characteristics, plant size, and growing conditions."
+      ],
+      "follow_up_suggestions": [
+        "Upload plant image for analysis",
+        "Describe plant characteristics",
+        "Ask about common garden plants",
+        "Learn about plant families"
+      ]
+    },
+    "disease_symptoms": {
+      "keywords": ["symptoms", "signs", "disease", "problem", "sick", "infected", "spots", "yellow", "brown", "wilting"],
+      "responses": [
+        "I can help identify disease symptoms! Common signs include discolored leaves, spots, wilting, unusual growths, or stunted development. Can you describe what you're seeing on your plants?",
+        "Plant diseases show various symptoms depending on the pathogen. Key indicators include: leaf discoloration, spots or lesions, wilting despite adequate water, unusual growths, and premature leaf drop. What specific symptoms are you observing?",
+        "Disease identification starts with careful observation. Look for: changes in leaf color or texture, presence of spots or lesions, plant wilting or drooping, abnormal growths, and overall plant vigor. Which symptoms match what you're seeing?"
+      ],
+      "detailed_symptoms": {
+        "fungal_diseases": [
+          "Leaf spots with concentric rings (target spots)",
+          "Fuzzy growth on leaves or stems",
+          "Powdery white coating on leaves",
+          "Rust-colored pustules",
+          "Black, sooty mold appearance"
+        ],
+        "bacterial_diseases": [
+          "Water-soaked lesions",
+          "Bacterial ooze or slime",
+          "Sudden wilting of branches",
+          "Angular leaf spots",
+          "Soft rot of stems or fruit"
+        ],
+        "viral_diseases": [
+          "Mosaic patterns on leaves",
+          "Yellowing with green veining",
+          "Stunted or distorted growth",
+          "Ring spots on leaves",
+          "Leaf curling or puckering"
+        ],
+        "nutrient_deficiencies": [
+          "Yellowing between leaf veins (chlorosis)",
+          "Purple or reddish leaf discoloration",
+          "Stunted growth",
+          "Poor fruit development",
+          "Premature leaf drop"
+        ]
+      }
+    },
+    "treatment_advice": {
+      "keywords": ["treatment", "cure", "fix", "medicine", "fungicide", "how to treat"],
+      "responses": [
+        "Treatment depends on accurate diagnosis. For fungal diseases, fungicides may help; for bacterial issues, copper sprays or antibiotics might be needed. Can you describe the specific symptoms you're seeing?",
+        "Effective treatment requires knowing what you're treating! General approaches include: removing infected plant parts, improving air circulation, adjusting watering practices, and applying appropriate treatments. What disease are you dealing with?",
+        "Treatment success depends on early intervention and correct diagnosis. Common treatments include cultural practices (pruning, spacing), organic options (neem oil, copper), and chemical controls when necessary. What specific problem needs treatment?"
+      ],
+      "organic_treatments": {
+        "fungal_diseases": [
+          "Neem oil spray (weekly applications)",
+          "Baking soda solution (1 tsp per quart water)",
+          "Copper-based fungicides (organic approved)",
+          "Compost tea applications",
+          "Milk spray (1:9 ratio with water)",
+          "Remove infected plant parts immediately"
+        ],
+        "bacterial_diseases": [
+          "Copper sprays during dormant season",
+          "Remove infected tissue with sterile tools",
+          "Improve air circulation",
+          "Avoid overhead watering",
+          "Apply beneficial bacteria",
+          "Quarantine infected plants"
+        ],
+        "pest_control": [
+          "Beneficial insect habitat creation",
+          "Companion planting for pest deterrence",
+          "Diatomaceous earth for crawling insects",
+          "Insecticidal soaps for soft-bodied pests",
+          "Row covers for physical protection",
+          "Hand-picking for large pests"
+        ]
+      }
+    },
+    "soil_management": {
+      "keywords": ["soil", "ph", "fertilizer", "nutrients", "compost", "soil test"],
+      "responses": [
+        "Healthy soil is the foundation of successful growing! Key aspects include proper pH (6.0-7.0 for most crops), adequate organic matter, good drainage, and balanced nutrients. What specific soil questions do you have?",
+        "Soil health determines plant health! Essential practices include: regular soil testing, adding organic matter, maintaining proper drainage, and ensuring balanced nutrition. Are you dealing with a specific soil issue?",
+        "Great soil management involves understanding your soil's needs. This includes pH testing, organic matter content, nutrient levels, and soil structure. What aspect of soil management interests you most?"
+      ],
+      "soil_improvement_tips": {
+        "ph_management": [
+          "Test soil pH annually with reliable kit",
+          "Add lime to raise pH (for acidic soils)",
+          "Add sulfur or organic matter to lower pH",
+          "Most vegetables prefer pH 6.0-7.0",
+          "Blueberries prefer acidic soil (4.5-5.5 pH)",
+          "Apply amendments gradually over time"
+        ],
+        "organic_matter": [
+          "Add 2-4 inches of compost annually",
+          "Use well-rotted manure (never fresh)",
+          "Incorporate cover crops in off-season",
+          "Leave grass clippings on lawn",
+          "Compost kitchen scraps and yard waste",
+          "Mulch around plants to retain moisture"
+        ],
+        "drainage_improvement": [
+          "Add coarse organic matter to clay soils",
+          "Create raised beds for better drainage",
+          "Avoid working wet soil (causes compaction)",
+          "Add perlite or sand to heavy soils",
+          "Install drainage tiles in problem areas",
+          "Plant deep-rooted cover crops"
+        ]
+      }
+    },
+    "watering_irrigation": {
+      "keywords": ["water", "irrigation", "watering", "drought", "overwatering", "drip irrigation"],
+      "responses": [
+        "Proper watering is crucial for plant health! Most plants need 1-2 inches weekly, applied deeply but less frequently. Water early morning for best absorption and disease prevention. What watering challenges are you facing?",
+        "Watering wisdom: deep, infrequent watering encourages strong root systems. Check soil moisture 2-3 inches deep before watering. Different plants have different needs - what specific crops are you watering?",
+        "Irrigation success depends on timing, method, and amount. Best practices include morning watering, soil-level application, and adjusting for weather and plant stage. What's your current watering situation?"
+      ],
+      "watering_guidelines": {
+        "general_principles": [
+          "Water deeply but less frequently",
+          "Water in early morning (6-10 AM)",
+          "Check soil moisture before watering",
+          "Apply water to soil, not leaves",
+          "Adjust frequency based on weather",
+          "Mulch to retain soil moisture"
+        ],
+        "signs_of_problems": [
+          "Overwatering: yellowing leaves, root rot, fungal issues",
+          "Underwatering: wilting, dry/crispy leaves, stunted growth",
+          "Inconsistent watering: blossom end rot, fruit cracking",
+          "Poor drainage: standing water, slow plant growth",
+          "Hard water issues: white buildup on leaves, pH problems"
+        ],
+        "efficient_methods": [
+          "Drip irrigation for maximum efficiency",
+          "Soaker hoses for garden beds",
+          "Timer systems for consistency",
+          "Rain gauges to monitor natural rainfall",
+          "Mulching to reduce water needs",
+          "Grouping plants by water requirements"
+        ]
+      }
+    },
+    "pest_management": {
+      "keywords": ["pest", "insect", "bug", "aphid", "control", "natural pest control"],
+      "responses": [
+        "Integrated pest management (IPM) is the best approach! This combines prevention, monitoring, biological controls, and targeted treatments. What specific pests are you dealing with?",
+        "Pest control works best when you identify the specific pest first. Common garden pests include aphids, caterpillars, beetles, and mites. Each requires different management strategies. Can you describe what you're seeing?",
+        "Effective pest management starts with prevention: healthy soil, proper plant spacing, encouraging beneficial insects, and regular monitoring. What type of pest problem are you experiencing?"
+      ],
+      "common_pests": {
+        "aphids": {
+          "identification": "Small, soft-bodied insects in clusters on new growth",
+          "damage": "Stunted growth, curled leaves, sticky honeydew",
+          "organic_control": [
+            "Spray with strong water stream",
+            "Insecticidal soap application",
+            "Encourage ladybugs and lacewings",
+            "Plant companion flowers (marigolds, nasturtiums)",
+            "Neem oil treatment"
+          ]
+        },
+        "caterpillars": {
+          "identification": "Larvae of moths and butterflies, various sizes and colors",
+          "damage": "Chewed leaves, holes in fruit, defoliation",
+          "organic_control": [
+            "Hand-pick when possible",
+            "Bt (Bacillus thuringiensis) spray",
+            "Row covers during egg-laying periods",
+            "Encourage beneficial birds",
+            "Remove egg masses"
+          ]
+        },
+        "spider_mites": {
+          "identification": "Tiny spiders, fine webbing, stippled leaf damage",
+          "damage": "Yellow stippling on leaves, webbing, leaf drop",
+          "organic_control": [
+            "Increase humidity around plants",
+            "Spray undersides of leaves with water",
+            "Predatory mites release",
+            "Insecticidal soap treatment",
+            "Remove heavily infested leaves"
+          ]
+        }
+      }
+    },
+    "organic_farming": {
+      "keywords": ["organic", "natural", "chemical-free", "sustainable", "eco-friendly"],
+      "responses": [
+        "Organic farming focuses on building healthy soil, promoting biodiversity, and using natural pest and disease management. Key practices include composting, crop rotation, and beneficial insect habitat. What aspect interests you most?",
+        "Sustainable agriculture works with natural systems! Core principles include soil health through organic matter, biological pest control, diverse plantings, and minimal external inputs. Are you transitioning to organic methods?",
+        "Organic growing emphasizes prevention over treatment. This means healthy soil, plant diversity, beneficial insects, and natural fertility sources. What organic practices would you like to learn about?"
+      ],
+      "organic_practices": {
+        "soil_building": [
+          "Compost application (2-4 inches annually)",
+          "Cover crop rotation in off-seasons",
+          "Minimal tillage to preserve soil structure",
+          "Organic mulching for moisture and nutrients",
+          "Green manure crops for nitrogen fixation",
+          "Mycorrhizal fungi inoculation"
+        ],
+        "natural_fertility": [
+          "Compost and worm castings",
+          "Fish emulsion for quick nitrogen",
+          "Kelp meal for trace minerals",
+          "Bone meal for phosphorus",
+          "Rock dust for slow-release minerals",
+          "Compost tea brewing and application"
+        ],
+        "pest_management": [
+          "Beneficial insect habitat creation",
+          "Companion planting strategies",
+          "Trap crops for pest diversion",
+          "Physical barriers (row covers, copper tape)",
+          "Biological controls (beneficial nematodes, predatory insects)",
+          "Organic-approved sprays (neem, pyrethrin, Bt)"
+        ]
+      }
+    },
+    "seasonal_care": {
+      "keywords": ["spring", "summer", "fall", "winter", "season", "seasonal", "monthly"],
+      "responses": [
+        "Seasonal care helps plants thrive year-round! Each season has specific tasks: spring for planting and fertilizing, summer for maintenance and harvesting, fall for cleanup and preparation, winter for planning and protection. What season are you planning for?",
+        "Timing is everything in gardening! Seasonal tasks ensure plants get what they need when they need it. Spring focuses on growth, summer on maintenance, fall on harvest and cleanup, winter on rest and planning. Which season interests you?",
+        "Successful gardening follows nature's rhythm. Each season brings unique opportunities and challenges. Understanding seasonal needs helps optimize plant health and productivity. What seasonal tasks are you wondering about?"
+      ],
+      "seasonal_tasks": {
+        "spring": [
+          "Start seeds indoors for warm-season crops",
+          "Prepare garden beds with compost",
+          "Plant cool-season crops after soil workable",
+          "Apply balanced organic fertilizer",
+          "Begin pest monitoring programs",
+          "Set up irrigation systems",
+          "Prune fruit trees before bud break",
+          "Divide perennial plants"
+        ],
+        "summer": [
+          "Maintain consistent watering schedule",
+          "Harvest crops at peak ripeness",
+          "Monitor for pests and diseases",
+          "Side-dress heavy feeders with compost",
+          "Provide shade for heat-sensitive plants",
+          "Succession plant for continuous harvest",
+          "Deadhead flowers to encourage blooming",
+          "Mulch heavily to conserve moisture"
+        ],
+        "fall": [
+          "Harvest remaining crops before frost",
+          "Plant cover crops in empty beds",
+          "Collect and compost healthy plant debris",
+          "Plant garlic and spring-flowering bulbs",
+          "Apply compost to garden beds",
+          "Protect tender plants from frost",
+          "Clean and store garden tools",
+          "Plan next year's garden layout"
+        ],
+        "winter": [
+          "Plan next season's plantings",
+          "Order seeds from catalogs",
+          "Study new growing techniques",
+          "Maintain and sharpen tools",
+          "Start cold-hardy microgreens indoors",
+          "Protect plants from frost and wind",
+          "Review previous season's garden notes",
+          "Attend gardening workshops or classes"
+        ]
+      }
+    },
+    "harvesting": {
+      "keywords": ["harvest", "picking", "ready", "ripe", "when to harvest"],
+      "responses": [
+        "Harvest timing affects both flavor and storage life! Each crop has specific indicators of ripeness. General rule: harvest in the morning when plants are well-hydrated and sugars are concentrated. What crops are you looking to harvest?",
+        "Knowing when to harvest is an art! Look for visual cues, test for firmness, and understand each crop's unique signs of maturity. Proper timing maximizes flavor, nutrition, and storage potential. Which vegetables or fruits interest you?",
+        "Perfect harvest timing varies by crop and intended use. Some vegetables are best picked young and tender, others when fully mature. Understanding these differences helps you get the best from your garden. What specific harvest questions do you have?"
+      ],
+      "harvest_indicators": {
+        "tomatoes": [
+          "First blush of color on fruit",
+          "Slight softening at blossom end",
+          "Easy separation from vine",
+          "Green tomatoes can ripen indoors",
+          "Harvest before first frost"
+        ],
+        "peppers": [
+          "Firm, full-sized fruit",
+          "Glossy skin without wrinkles",
+          "Sweet peppers can be picked green or colored",
+          "Hot peppers develop heat as they ripen",
+          "Cut rather than pull from plant"
+        ],
+        "leafy_greens": [
+          "Harvest outer leaves first",
+          "Cut in early morning for best quality",
+          "Pick before plants bolt in heat",
+          "Young leaves are more tender",
+          "Continuous harvest encourages production"
+        ],
+        "root_vegetables": [
+          "Check size by gently digging around base",
+          "Harvest carrots after cool weather for sweetness",
+          "Beets can be harvested at any size",
+          "Radishes should be crisp, not pithy",
+          "Store in cool, humid conditions"
+        ]
+      }
+    },
+    "companion_planting": {
+      "keywords": ["companion", "plant together", "combinations", "beneficial plants"],
+      "responses": [
+        "Companion planting maximizes garden space and plant health! Classic combinations include tomatoes with basil, corn with beans and squash (Three Sisters), and carrots with chives. These partnerships offer pest control, improved growth, and efficient space use.",
+        "Smart plant combinations can improve yields, deter pests, and enhance flavors! Some plants help each other by providing nutrients, shade, or pest deterrence. Others should be kept apart to avoid competition or negative effects.",
+        "Companion planting is nature's way of creating beneficial plant communities! Good companions can improve soil, attract beneficial insects, provide natural pest control, or simply use space efficiently together."
+      ],
+      "beneficial_combinations": {
+        "three_sisters": {
+          "plants": ["corn", "beans", "squash"],
+          "benefits": [
+            "Corn provides support for beans",
+            "Beans fix nitrogen for corn and squash",
+            "Squash leaves shade soil and deter pests",
+            "Maximizes space utilization",
+            "Traditional Native American technique"
+          ]
+        },
+        "tomato_companions": {
+          "good_companions": ["basil", "oregano", "parsley", "marigolds", "carrots"],
+          "benefits": [
+            "Basil improves tomato flavor and deters pests",
+            "Marigolds repel nematodes and aphids",
+            "Carrots don't compete for space or nutrients",
+            "Herbs attract beneficial insects"
+          ],
+          "avoid": ["fennel", "corn", "brassicas", "walnut trees"]
+        },
+        "pest_deterrent_plants": {
+          "marigolds": "Repel aphids, whiteflies, and nematodes",
+          "nasturtiums": "Trap crop for aphids, repel cucumber beetles",
+          "catnip": "Deters mosquitoes and ants",
+          "mint": "Repels ants and rodents (plant in containers)",
+          "chives": "Repel aphids and improve plant growth nearby"
+        }
+      }
+    },
+    "troubleshooting": {
+      "keywords": ["problem", "help", "issue", "wrong", "not growing"],
+      "responses": [
+        "Plant problems usually have identifiable causes! Common issues include watering problems, nutrient deficiencies, pest damage, or environmental stress. Can you describe what you're seeing - leaf color, growth pattern, or other symptoms?",
+        "Troubleshooting starts with careful observation. Look at the whole plant, growing conditions, and recent changes. Most problems are solvable once properly identified! What specific issues are you experiencing?",
+        "Plant problems often have multiple causes, so systematic diagnosis helps. Consider: watering consistency, light levels, soil conditions, pest presence, and weather factors. What symptoms concern you most?"
+      ],
+      "common_problems": {
+        "yellowing_leaves": [
+          "Overwatering - check soil drainage",
+          "Nitrogen deficiency - apply balanced fertilizer",
+          "Natural aging of lower leaves",
+          "Root problems - examine root system",
+          "Disease issues - look for other symptoms"
+        ],
+        "poor_growth": [
+          "Insufficient light - move to brighter location",
+          "Compacted soil - improve aeration",
+          "Nutrient deficiency - soil test recommended",
+          "Root bound plants - transplant to larger container",
+          "pH problems - test and adjust soil pH"
+        ],
+        "wilting_plants": [
+          "Underwatering - check soil moisture depth",
+          "Root damage from overwatering",
+          "Transplant shock - provide temporary shade",
+          "Disease affecting roots or stems",
+          "Extreme heat stress - provide afternoon shade"
+        ]
+      }
+    },
+    "general_advice": {
+      "keywords": ["advice", "tips", "help", "beginner", "start gardening"],
+      "responses": [
+        "Welcome to gardening! Start small, observe your plants closely, and learn from both successes and failures. Key basics include understanding your soil, proper watering, and choosing plants suited to your climate. What aspect of gardening interests you most?",
+        "Gardening success comes from patience, observation, and continuous learning! Focus on soil health first, start with easy crops, and don't be afraid to experiment. Every garden and gardener is unique. What would you like to learn about?",
+        "Great gardening begins with understanding your local conditions: soil type, climate zone, and growing season. From there, choose appropriate plants and provide consistent care. Most importantly, enjoy the process! What's your gardening goal?"
+      ],
+      "beginner_tips": [
+        "Start with easy crops like lettuce, radishes, and herbs",
+        "Improve your soil before planting anything",
+        "Learn your hardiness zone and frost dates",
+        "Keep a garden journal to track successes and failures",
+        "Water consistently but don't overwater",
+        "Choose the right location for each plant's light needs",
+        "Start small and expand as you gain experience",
+        "Connect with local gardening communities for advice"
+      ]
+    }
+  },
+  "quick_responses": {
+    "acknowledgments": [
+      "That's a great question!",
+      "I can definitely help with that!",
+      "Let me provide some guidance on that topic.",
+      "That's an important aspect of gardening!"
+    ],
+    "clarification_requests": [
+      "Could you provide more details about the symptoms you're seeing?",
+      "What specific crop or plant are you asking about?",
+      "Can you describe your growing conditions?",
+      "What region or climate zone are you gardening in?"
+    ],
+    "encouragement": [
+      "Don't worry, this is a common issue that can be resolved!",
+      "You're asking the right questions for successful gardening!",
+      "Every gardener faces challenges - it's part of the learning process!",
+      "With proper care, your plants will recover and thrive!"
+    ]
+  },
+  "specialized_topics": {
+    "greenhouse_growing": {
+      "keywords": ["greenhouse", "indoor growing", "controlled environment"],
+      "response": "Greenhouse growing extends your season and provides environmental control! Key factors include temperature management, ventilation, humidity control, and proper lighting. Benefits include year-round production, pest protection, and optimal growing conditions.",
+      "tips": [
+        "Maintain proper ventilation for air circulation",
+        "Monitor temperature with min/max thermometer",
+        "Control humidity to prevent disease",
+        "Provide adequate lighting for plant needs",
+        "Use thermal mass to moderate temperature swings"
+      ]
+    },
+    "container_gardening": {
+      "keywords": ["container", "pot", "balcony", "small space"],
+      "response": "Container gardening is perfect for small spaces and offers great control over growing conditions! Choose containers with drainage, use quality potting mix, and adjust watering frequency for container conditions.",
+      "tips": [
+        "Ensure containers have drainage holes",
+        "Use quality potting mix, not garden soil",
+        "Water more frequently than ground plantings",
+        "Choose appropriate container size for each plant",
+        "Consider mobility for seasonal protection"
+      ]
+    },
+    "seed_starting": {
+      "keywords": ["seeds", "starting seeds", "germination", "seedlings"],
+      "response": "Starting from seed gives you variety choices and is economical! Success requires proper timing, temperature, moisture, and light conditions. Different seeds have different requirements for germination.",
+      "tips": [
+        "Read seed packets for specific requirements",
+        "Provide consistent moisture during germination",
+        "Maintain proper temperature for each crop",
+        "Provide adequate light once sprouted",
+        "Harden off seedlings before transplanting"
+      ]
+    }
+  },
+  "emergency_responses": {
+    "plant_emergency": {
+      "keywords": ["dying", "emergency", "urgent", "help quickly"],
+      "response": "Plant emergencies need quick action! First, identify the immediate cause: is it watering, disease, pests, or environmental stress? Remove any obviously damaged parts, adjust watering if needed, and provide temporary protection from stress factors.",
+      "immediate_actions": [
+        "Remove dead or diseased plant parts",
+        "Check soil moisture and adjust watering",
+        "Provide shade if heat-stressed",
+        "Isolate plant if disease is suspected",
+        "Take photos to help with diagnosis"
+      ]
+    },
+    "disease_outbreak": {
+      "keywords": ["spreading", "outbreak", "all plants affected"],
+      "response": "Disease outbreaks require immediate containment! Remove affected plants or parts immediately, improve air circulation, stop overhead watering, and apply appropriate treatments. Early action prevents total crop loss.",
+      "containment_steps": [
+        "Quarantine affected plants immediately",
+        "Remove and destroy infected material",
+        "Disinfect tools between plants",
+        "Improve air circulation around plants",
+        "Apply preventive treatments to healthy plants"
+      ]
+    }
+  },
+  "weather_related": {
+    "frost_protection": {
+      "keywords": ["frost", "freeze", "cold protection"],
+      "response": "Frost protection saves tender plants from cold damage! Methods include row covers, water walls, mulching, and bringing containers indoors. Preparation before cold weather is key to success.",
+      "protection_methods": [
+        "Row covers or blankets for ground protection",
+        "Water-filled containers for thermal mass",
+        "Mulch heavily around plant bases",
+        "Move containers to protected areas",
+        "Harvest tender crops before frost"
+      ]
+    },
+    "heat_stress": {
+      "keywords": ["hot", "heat", "summer stress", "wilting in heat"],
+      "response": "Heat stress affects plant growth and productivity! Protection includes shade cloth, mulching, consistent watering, and choosing heat-tolerant varieties. Prevention is easier than recovery.",
+      "cooling_strategies": [
+        "Provide afternoon shade with cloth",
+        "Mulch heavily to cool soil",
+        "Water deeply in early morning",
+        "Choose heat-tolerant plant varieties",
+        "Create windbreaks to reduce drying"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="upload-container">
+    <h2>Upload Leaf Image</h2>
+    <div id="drop-area">
+        <p>Drag & Drop an image here or click to upload</p>
+        <input type="file" id="fileElem" accept="image/*" hidden>
+        <button id="fileSelect">Choose File</button>
+    </div>
+    <div id="preview"></div>
+    <button id="analyzeBtn" disabled>Analyze</button>
+</div>
+
+<div id="results"></div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/image_upload.js') }}"></script>
+<script src="{{ url_for('static', filename='js/results.js') }}"></script>
+{% endblock %}

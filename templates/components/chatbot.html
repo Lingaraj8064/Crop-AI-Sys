@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="chat-page">
+  <div class="chat-window">
+    <div id="chatHistory" class="chat-history"></div>
+
+    <div class="chat-controls">
+      <input id="chatInput" type="text" placeholder="Ask about disease, soil, or upload help..." />
+      <button id="sendBtn">Send</button>
+    </div>
+
+    <div id="quickReplies" class="quick-replies"></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const SESSION_ID = localStorage.getItem("crop_chat_session") || ("sess_" + Math.random().toString(36).slice(2));
+  localStorage.setItem("crop_chat_session", SESSION_ID);
+</script>
+<script src="{{ url_for('static', filename='js/chatbot.js') }}"></script>
+{% endblock %}
